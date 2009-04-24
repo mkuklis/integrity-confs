@@ -7,6 +7,7 @@ $ cd integrity-confs
 # Generate an SSH key pairs, put public key in Unfuddle and private key into ssh_pkey file
 $ heroku create YOUR_APP_NAME
 $ git push heroku master
+$ heroku rake db:migrate
 </code></pre>
 
-Go to http:://YOUR_APP_NAME.heroku.com and add your first project and stay green!
+Go to http:://YOUR_APP_NAME.heroku.com, add your projects and stay green!
